@@ -73,7 +73,7 @@ pdfkit==1.0.0
 pdfminer.six==20221105
 pdfplumber==0.10.2
 pdfrw==0.4
-pdftables-api @ https://github.com/pdftables/python-pdftables-api/archive/master.tar.gz#sha256=3031eae34f3eb5f23507a4ac5fd4aa42daffa8e115749e70f4956acf995db5d1
+pdftables-api @ https://github.com/pdftables/python-pdftables-api/archive/master.tar.gz
 Pillow==10.0.0
 preshed==3.0.9
 proto-plus==1.26.0

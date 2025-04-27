@@ -80,6 +80,7 @@ proto-plus==1.26.0
 protobuf==5.29.3
 psutil==5.9.8
 pyasn1==0.6.1
+pywin32==310
 pyasn1_modules==0.4.1
 PyAudio==0.2.14
 pycparser==2.21

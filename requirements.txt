@@ -14,7 +14,6 @@ cffi==1.15.1
 charset-normalizer==3.2.0
 click==8.1.7
 cloudpathlib==0.16.0
-clr-loader==0.2.6
 colorama==0.4.6
 comtypes==1.2.0
 confection==0.1.4
@@ -95,10 +94,6 @@ pypdfium2==4.19.0
 pyphen==0.14.0
 python-dateutil==2.8.2
 python-docx==0.8.11
-pythonnet==3.0.2
-pyttsx3==2.90
-pytz==2023.3
-pywinauto==0.6.8
 redis==5.0.4
 reportlab==4.0.4
 requests==2.31.0
@@ -137,5 +132,3 @@ webencodings==0.5.1
 Werkzeug==3.0.3
 XlsxWriter==3.1.4
 zopfli==0.2.3
-# For Windows only (optional)
-pywin32; platform_system == 'Windows'

@@ -71,7 +71,8 @@ def register_user():
                 files_list.append({
                     "File_Id":file_data.get("file_huff_id"),
                     "original_file": file_data.get("original_file"),
-                    "uploaded_at": file_data.get("uploaded_at")
+                    "uploaded_at": file_data.get("uploaded_at"),
+                    "from_friend": friend_address
                 })
 
         return jsonify({

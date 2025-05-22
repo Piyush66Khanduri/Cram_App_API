@@ -5,9 +5,6 @@ import uuid
 import base64
 import json
 import os
-
-'''cred = credentials.Certificate("credentialapi-aedd8-firebase-adminsdk-fbsvc-77f7ec52f3.json")
-firebase_admin.initialize_app(cred)'''
 cred_dict = json.loads(os.environ['GOOGLE_APPLICATION_CREDENTIALS_JSON'])
 cred = credentials.Certificate(cred_dict)
 firebase_admin.initialize_app(cred)
